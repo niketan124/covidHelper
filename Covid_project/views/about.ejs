@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Helper | About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/4f2a486a94.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+  </head>
+  <body class="ab">
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="home.html" target="_parent">Home</a></li>
+        <li class="a"><a href="covid.html" target="_parent">Covid-Help-InFo</a></li>
+        <li><a href="about.html" target="_parent">About Us</a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      $(".ab").ripples({
+        resolution: 200,
+        perturbance: 0.04,
+      });
+    </script>
+    <div class="textbox">
+      <h1>Contact Us:</h1>
+      <br>
+      <textarea class="t" name="" rows="8" placeholder="enter message here" cols="80"></textarea>
+      <br>
+      <div class="in">
+        <input class="con" type="mail" name="" placeholder="send email" value="">
+        <a class="btn" href=""><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="ph">
+        <input class="nu" type="tel" placeholder="enter mobile no." name="" value="">
+        <a class="pbtn" href="#"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Helper | HelpInfo</title>
+    <link rel="stylesheet" href="covid.css">
+    <script src="https://kit.fontawesome.com/4f2a486a94.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+  </head>
+  <body class="ab">
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="home.html" target="_parent">Home</a></li>
+        <li class="a"><a href="covid.html" target="_parent">Covid-Help-InFo</a></li>
+        <li><a href="about.html" target="_parent">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="search">
+      <input class="search-box" type="text" name="" placeholder="Search by loaction">
+      <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+    </div>
+    <script type="text/javascript">
+      $(".ab").ripples({
+        resolution: 200,
+        perturbance: 0.01,
+      });
+    </script>
+    <div class="middle">
+
+    </div>
+    <div id="text">
+
+    </div>
+      <script type="text/javascript" class="s">
+        var i=0,text,j=0;
+        text = "Let's help poeple who are suffering from COVID19"
+
+        function typing() {
+          if(i<text.length){
+            document.getElementById("text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing, 50);
+          }
+        }
+        typing();
+      </script>
+      <div class="im">
+        <h1 id="j">There are some people who seeks for help...our website provides the help by providing details</h1>
+        <br>
+        <div class="help">
+          <p>you can also help people with us  by publishing your legit whatsapp forwards.</p>
+          <br>
+          <p id="e">Corona Harega India jeetega!</p>
+          
+        </div>
+        <div class="iy"></div>
+      </div>
+      <script type="text/javascript">
+        $(".im").ripples({
+          resolution: 200,
+          perturbance: 0.01,
+        });
+      </script>
+  </body>
+</html>

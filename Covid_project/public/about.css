@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/paris.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  background-color: rgba(450, 0, 60, 0.8);
+  color: #fff;
+}
+.menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  position: relative;
+}
+.nav .menu li a {
+  padding: 12px 24px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.6s ease-in-out;
+}
+.menu a:hover {
+  background-color: #34495e;
+
+}
+.textbox {
+  width: 400px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 30%;
+  color: #2C3A47;
+}
+.textbox h1 {
+  border-bottom: 5px solid #4caf50;
+  float: left;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #1B9CFC;
+  font-size: 50px;
+}
+.textbox .in {
+  position: relative;
+  top: 3%;
+  left: 60%;
+}
+
+.in {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  float: right;
+  top: -8%;
+  right: 7%;
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.btn {
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.con {
+  border: none;
+  background: none;outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.in:hover > .con {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.btn:hover {
+  background: #fff;
+}
+
+.textbox .ph {
+  position: relative;
+  left: 60%;
+}
+
+
+.ph {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  float: right;
+  top: -8%;
+  right: 7%;
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.pbtn {
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.nu {
+  border: none;
+  background: none;outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.ph:hover > .nu {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.pbtn:hover {
+  background: #fff;
+}
+
+.t {
+  border: none;
+  border-radius: 1%;
+  outline: none;
+  background-color: #95a5a6;
+}
